@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branches</title>
+</head>
+<body>
+    <h1>S3 - Git Branches</h1>
+    <h2>Ejercicio 1</h2>
+    <ol>
+<li>Crea un repositorio de Git vacío con el comando <strong><code>git init</code></strong>.</li>
+<li>Crea un archivo llamado <strong><code>index.html</code></strong> y agrega algo de contenido.</li>
+<li>Agrega el archivo <strong><code>index.html</code></strong> al área de preparación con el comando <strong><code>git add index.html</code></strong>.</li>
+<li>Crear un commit en este punto. </li>
+<li>Crea una nueva rama llamada <strong><code>develop</code></strong> con el comando <strong><code>git branch develop</code></strong>.</li>
+<li>Cambia a la rama <strong><code>develop</code></strong> con el comando <strong><code>git checkout develop</code></strong>.</li>
+<li>Crea un archivo llamado <strong><code>.env</code></strong> y agrega algo de contenido sensible.</li>
+<li>Crea un archivo llamado <strong><code>.gitignore</code></strong> en la raíz del repositorio.</li>
+<li>Abre el archivo <strong><code>.gitignore</code></strong> y agrega una línea que indique que Git debe ignorar el archivo <strong><code>.env</code></strong>. La línea debería ser así: <strong><code>.env</code></strong>.</li>
+<li>Agrega el archivo <strong><code>.gitignore</code></strong> al área de preparación con el comando <strong><code>git add .gitignore</code></strong>.</li>
+<li>Edita el archivo <strong><code>index.html</code></strong> para hacer algunos cambios y agrega esos cambios al área de preparación con el comando <strong><code>git add index.html</code></strong>.</li>
+<li>Haz un commit con los cambios en la rama <strong><code>develop</code></strong> usando el comando <strong><code>git commit -m "Cambios en la rama develop"</code></strong>.</li>
+<li>Cambia de vuelta a la rama <strong><code>main</code></strong> con el comando <strong><code>git checkout main</code></strong>.</li>
+<li>Muestra el contenido del archivo <strong><code>index.html</code></strong> para comprobar que los cambios hechos en la rama <strong><code>develop</code></strong> no están presentes.</li>
+<li>Fusiona la rama <strong><code>develop</code></strong> en la rama <strong><code>main</code></strong> usando el comando <strong><code>git merge develop</code></strong>. Los cambios realizados en la rama <strong><code>develop</code></strong> se integrarán en la rama <strong><code>main</code></strong>.</li>
+<li>Muestra el contenido del archivo <strong><code>index.html</code></strong> de nuevo para comprobar que los cambios realizados en la rama <strong><code>develop</code></strong> ahora están presentes en la rama <strong><code>main</code></strong>.</li>
+<li>Verifica que el archivo <strong><code>.env</code></strong> no está incluido en el repositorio ejecutando el comando <strong><code>git ls-files --other --ignored --exclude-standard</code></strong>.</li>
+<li>Publicar a Github en un repositorio llamado <code>aspirantes-mir-ejercicioi-3</code>.</li>
+<li>Enviar el link al repositorio en Github a su mentor(a).</li>
+</ol>
+</body>
+</html>
